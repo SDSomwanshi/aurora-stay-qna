@@ -25,7 +25,7 @@ def generate(query, retrieved_chunks,model) -> str:
     {retrieved_chunks}
 
     Rules:
-    1. Use only information explicitly supported by the retrieved policy information. 
+    1. Use only information explicitly supported by the retrieved policy information.
     2. Do not use outside knowledge, assumptions, or information not present in the retrieved policy information.
     3. Include all relevant information needed to answer the query completely.
     4. Do not omit important conditions, exclusions, limitations, exceptions, or coverage details.
